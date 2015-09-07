@@ -13,6 +13,7 @@
 		A14FE94F1B9E3F2300017C92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14FE94E1B9E3F2300017C92 /* Images.xcassets */; };
 		A14FE9521B9E3F2300017C92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A14FE9501B9E3F2300017C92 /* LaunchScreen.xib */; };
 		A14FE95E1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE95D1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift */; };
+		A14FE9681B9E3F8100017C92 /* LessonsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A14FE9571B9E3F2300017C92 /* IOSTestingKitchenSinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSTestingKitchenSinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14FE95C1B9E3F2300017C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14FE95D1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTestingKitchenSinkTests.swift; sourceTree = "<group>"; };
+		A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				A14FE9471B9E3F2300017C92 /* AppDelegate.swift */,
 				A14FE9491B9E3F2300017C92 /* ViewController.swift */,
+				A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */,
 				A14FE94B1B9E3F2300017C92 /* Main.storyboard */,
 				A14FE94E1B9E3F2300017C92 /* Images.xcassets */,
 				A14FE9501B9E3F2300017C92 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14FE9681B9E3F8100017C92 /* LessonsConstants.swift in Sources */,
 				A14FE94A1B9E3F2300017C92 /* ViewController.swift in Sources */,
 				A14FE9481B9E3F2300017C92 /* AppDelegate.swift in Sources */,
 			);
