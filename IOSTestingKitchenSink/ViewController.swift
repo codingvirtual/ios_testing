@@ -31,7 +31,7 @@ class ViewController: UIViewController, UITableViewDelegate {
         return 1
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
+        performSegueWithIdentifier(lessonsToShow[indexPath.row], sender: self)
     }
     
      func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
