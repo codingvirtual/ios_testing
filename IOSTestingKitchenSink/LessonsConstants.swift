@@ -14,8 +14,10 @@ class LessonsConstants {
     var lesson = [Int:String]()
     
     init() {
+        
+        lesson[0] = "Hello World"
         // Based on http://osherove.com/tdd-kata-1/
-        lesson[0] = "String Calculator"
+        lesson[1] = "String Calculator"
     }
     
     // MARK: - Shared Instance
