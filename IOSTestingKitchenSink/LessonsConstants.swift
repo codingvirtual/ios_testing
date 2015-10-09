@@ -19,6 +19,8 @@ class LessonsConstants {
         // Based on http://osherove.com/tdd-kata-1/
         lesson[1] = "String Calculator"
         lesson[2] = "isPrime"
+        lesson[3] = "Concantenation"
+        lesson[4] = "Regex"
     }
     
     // MARK: - Shared Instance

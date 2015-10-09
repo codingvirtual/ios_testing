@@ -53,6 +53,7 @@
                     <connections>
                         <segue destination="bao-Zz-PPt" kind="show" identifier="lessonsToShow1" id="qS3-RN-u88"/>
                         <segue destination="1Sx-aa-b73" kind="show" identifier="lessonsToShow0" id="nmC-gH-Q1C"/>
+                        <segue destination="45M-rC-z50" kind="show" identifier="lessonsToShow4" id="fOx-kT-7hv"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PUX-Tp-7WY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -139,15 +140,48 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GKn-zl-yHe" firstAttribute="top" secondItem="UOw-8i-PXc" secondAttribute="bottom" constant="40" id="1As-7u-Svr"/>
                             <constraint firstItem="GKn-zl-yHe" firstAttribute="centerX" secondItem="8OM-qe-nJi" secondAttribute="centerX" id="2k0-dh-1UT"/>
                             <constraint firstItem="GKn-zl-yHe" firstAttribute="width" secondItem="8OM-qe-nJi" secondAttribute="width" id="PqN-MK-sfR"/>
+                            <constraint firstItem="GKn-zl-yHe" firstAttribute="top" secondItem="UOw-8i-PXc" secondAttribute="bottom" constant="40" id="i8P-Gs-PFb"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qaJ-A4-iZ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-523" y="2470"/>
+        </scene>
+        <!--Lesson4Controller-->
+        <scene sceneID="Sgn-qV-sn5">
+            <objects>
+                <viewController id="45M-rC-z50" userLabel="Lesson4Controller" customClass="Lesson4ViewController" customModule="IOSTestingKitchenSink" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1ia-8o-6Ww"/>
+                        <viewControllerLayoutGuide type="bottom" id="0MB-C8-iNJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WEN-sf-ZBt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Regex Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jbI-i0-vyO">
+                                <rect key="frame" x="0.0" y="104" width="600" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jbI-i0-vyO" firstAttribute="centerX" secondItem="WEN-sf-ZBt" secondAttribute="centerX" id="IMa-RM-fth"/>
+                            <constraint firstItem="jbI-i0-vyO" firstAttribute="width" secondItem="WEN-sf-ZBt" secondAttribute="width" id="eoh-j8-cZV"/>
+                            <constraint firstItem="jbI-i0-vyO" firstAttribute="top" secondItem="1ia-8o-6Ww" secondAttribute="bottom" constant="40" id="lal-pU-J9D"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="flx-qQ-NB9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1397" y="2246"/>
         </scene>
     </scenes>
 </document>
