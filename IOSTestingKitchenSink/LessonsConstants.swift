@@ -18,6 +18,7 @@ class LessonsConstants {
         lesson[0] = "Hello World"
         // Based on http://osherove.com/tdd-kata-1/
         lesson[1] = "String Calculator"
+        lesson[2] = "isPrime"
     }
     
     // MARK: - Shared Instance

@@ -31,7 +31,8 @@ class ViewController: UIViewController, UITableViewDelegate {
         return 1
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        performSegueWithIdentifier(lessonsToShow[indexPath.row], sender: self)
+        let lessonItemToShow = "lessonsToShow\(indexPath.row)"
+        performSegueWithIdentifier(lessonItemToShow, sender: self)
     }
     
      func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -40,9 +41,9 @@ class ViewController: UIViewController, UITableViewDelegate {
     
     
      func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell") as! UITableViewCell!
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell") as UITableViewCell!
         
-        cell.textLabel?.text = lessonsToShow[0]
+        cell.textLabel?.text = lessonsToShow[indexPath.row]
         return cell
     }
 
