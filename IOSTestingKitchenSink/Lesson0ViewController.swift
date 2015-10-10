@@ -8,20 +8,22 @@
 
 import UIKit
 
-class Lesson1ViewController: UIViewController {
+class Lesson0ViewController: UIViewController {
 
+    var selectedLesson:(section:Int, lesson:Int)?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+       
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+   
     
-
   
 
 }

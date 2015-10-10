@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1457C971BC81EAC0085597C /* IsPrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457C961BC81EAC0085597C /* IsPrime.swift */; settings = {ASSET_TAGS = (); }; };
+		A1457C991BC81FB20085597C /* TextValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457C981BC81FB20085597C /* TextValidation.swift */; settings = {ASSET_TAGS = (); }; };
+		A1457C9B1BC820780085597C /* Lesson4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457C9A1BC820780085597C /* Lesson4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A1457C9D1BC821420085597C /* TextValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457C9C1BC821420085597C /* TextValidationTests.swift */; settings = {ASSET_TAGS = (); }; };
 		A14FE9481B9E3F2300017C92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE9471B9E3F2300017C92 /* AppDelegate.swift */; };
-		A14FE94A1B9E3F2300017C92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE9491B9E3F2300017C92 /* ViewController.swift */; };
+		A14FE94A1B9E3F2300017C92 /* TableContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE9491B9E3F2300017C92 /* TableContentsViewController.swift */; };
 		A14FE94D1B9E3F2300017C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14FE94B1B9E3F2300017C92 /* Main.storyboard */; };
 		A14FE94F1B9E3F2300017C92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14FE94E1B9E3F2300017C92 /* Images.xcassets */; };
 		A14FE9521B9E3F2300017C92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A14FE9501B9E3F2300017C92 /* LaunchScreen.xib */; };
 		A14FE95E1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE95D1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift */; };
 		A14FE9681B9E3F8100017C92 /* LessonsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */; };
-		A14FE96B1B9E475F00017C92 /* Lesson1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE96A1B9E475F00017C92 /* Lesson1ViewController.swift */; };
+		A14FE96B1B9E475F00017C92 /* Lesson0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE96A1B9E475F00017C92 /* Lesson0ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1457C961BC81EAC0085597C /* IsPrime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsPrime.swift; sourceTree = "<group>"; };
+		A1457C981BC81FB20085597C /* TextValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextValidation.swift; path = ../TextValidation.swift; sourceTree = "<group>"; };
+		A1457C9A1BC820780085597C /* Lesson4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4ViewController.swift; sourceTree = "<group>"; };
+		A1457C9C1BC821420085597C /* TextValidationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextValidationTests.swift; path = ../IOSTestingKitchenSink/TextValidationTests.swift; sourceTree = "<group>"; };
 		A14FE9421B9E3F2300017C92 /* IOSTestingKitchenSink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSTestingKitchenSink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14FE9461B9E3F2300017C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14FE9471B9E3F2300017C92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A14FE9491B9E3F2300017C92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A14FE9491B9E3F2300017C92 /* TableContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableContentsViewController.swift; sourceTree = "<group>"; };
 		A14FE94C1B9E3F2300017C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A14FE94E1B9E3F2300017C92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A14FE9511B9E3F2300017C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -39,7 +47,7 @@
 		A14FE95C1B9E3F2300017C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14FE95D1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTestingKitchenSinkTests.swift; sourceTree = "<group>"; };
 		A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsConstants.swift; sourceTree = "<group>"; };
-		A14FE96A1B9E475F00017C92 /* Lesson1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson1ViewController.swift; sourceTree = "<group>"; };
+		A14FE96A1B9E475F00017C92 /* Lesson0ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson0ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +91,14 @@
 			children = (
 				A14FE9691B9E473800017C92 /* Lessons */,
 				A14FE9471B9E3F2300017C92 /* AppDelegate.swift */,
-				A14FE9491B9E3F2300017C92 /* ViewController.swift */,
+				A14FE9491B9E3F2300017C92 /* TableContentsViewController.swift */,
 				A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */,
 				A14FE94B1B9E3F2300017C92 /* Main.storyboard */,
+				A1457C981BC81FB20085597C /* TextValidation.swift */,
 				A14FE94E1B9E3F2300017C92 /* Images.xcassets */,
 				A14FE9501B9E3F2300017C92 /* LaunchScreen.xib */,
 				A14FE9451B9E3F2300017C92 /* Supporting Files */,
+				A1457C961BC81EAC0085597C /* IsPrime.swift */,
 			);
 			path = IOSTestingKitchenSink;
 			sourceTree = "<group>";
@@ -105,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				A14FE95D1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift */,
+				A1457C9C1BC821420085597C /* TextValidationTests.swift */,
 				A14FE95B1B9E3F2300017C92 /* Supporting Files */,
 			);
 			path = IOSTestingKitchenSinkTests;
@@ -121,7 +132,8 @@
 		A14FE9691B9E473800017C92 /* Lessons */ = {
 			isa = PBXGroup;
 			children = (
-				A14FE96A1B9E475F00017C92 /* Lesson1ViewController.swift */,
+				A14FE96A1B9E475F00017C92 /* Lesson0ViewController.swift */,
+				A1457C9A1BC820780085597C /* Lesson4ViewController.swift */,
 			);
 			name = Lessons;
 			sourceTree = "<group>";
@@ -170,6 +182,8 @@
 		A14FE93A1B9E3F2300017C92 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Grant Kemp";
 				TargetAttributes = {
@@ -227,8 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A14FE9681B9E3F8100017C92 /* LessonsConstants.swift in Sources */,
-				A14FE94A1B9E3F2300017C92 /* ViewController.swift in Sources */,
-				A14FE96B1B9E475F00017C92 /* Lesson1ViewController.swift in Sources */,
+				A1457C9B1BC820780085597C /* Lesson4ViewController.swift in Sources */,
+				A14FE94A1B9E3F2300017C92 /* TableContentsViewController.swift in Sources */,
+				A14FE96B1B9E475F00017C92 /* Lesson0ViewController.swift in Sources */,
+				A1457C991BC81FB20085597C /* TextValidation.swift in Sources */,
+				A1457C971BC81EAC0085597C /* IsPrime.swift in Sources */,
 				A14FE9481B9E3F2300017C92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A14FE95E1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift in Sources */,
+				A1457C9D1BC821420085597C /* TextValidationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = IOSTestingKitchenSink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = IOSTestingKitchenSink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +447,7 @@
 				A14FE9631B9E3F2300017C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A14FE9641B9E3F2300017C92 /* Build configuration list for PBXNativeTarget "IOSTestingKitchenSinkTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +456,7 @@
 				A14FE9661B9E3F2300017C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
